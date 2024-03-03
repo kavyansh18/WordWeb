@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&display=swap');
+
+body{
+    background-color: rgb(174, 222, 252);
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100vw;
+    height: 13vh;
+}
+
+.logoname img{
+    padding: 20px 3px;
+    margin-left: 40px;
+    width: 70px;
+}
+
+.logoname{
+    display: flex;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.maincontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 100px;
+}
+
+.a{
+    font-size: 2.3rem;
+    font-family: "Nunito", sans-serif;
+}
+
+.b{
+    font-size: 5rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+}
+
+.c{
+    font-size: 2.3rem;
+    font-family: "Nunito", sans-serif;
+}
+.text div{
+    padding-bottom: 15px;
+}
+
+.btn button{
+    border-radius: 19px;
+    background-color: black;
+    color: rgb(174, 222, 252);
+    padding: 10px 37px;
+    font-size: 1rem;
+    margin-left: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    transition: all .3s ease-in-out;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 img:first-child{
+    position: absolute;
+    right: 110px;
+    bottom: 570px;
+}
+
+.img1 img:first-child, .img1 img:last-child {
+    animation: rotate .9s  infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); } 
+    50% { transform: rotate(90deg); } 
+    100% { transform: rotate(0deg); } 
+}
+
+.btn button:hover{
+    background-color: rgb(174, 222, 252);
+    color: black;
+    border-radius: 2px solid black;
+    font-size: 1.2rem;
+}
