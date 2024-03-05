@@ -330,26 +330,26 @@ body::-webkit-scrollbar {
     border: 1px solid rgba(255, 255, 255, 1);
   }
   
-  .card1 {
+  .card111 {
     background-image: url("kavyansh.png");
     background-size: cover; 
   }
   
-  .card2 {
+  .card211 {
     background-image: url("neev.jpg");
     background-size: cover;
   }
   
-  .card3 {
+  .card311 {
     background-image: url("parv.jpg");
     background-size: cover;
   }
-  .card4 {
+  .card411 {
     background-image: url("garv.jpg");
     background-size: cover;
   }
-  .card5 {
-    background-image: url("kavyansh.jpg");
+  .card511 {
+    background-image: url("shivam.jpg");
     background-size: cover;
   }
   
