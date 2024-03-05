@@ -10,8 +10,30 @@ body{
 .nav{
     width: 100vw;
     height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding-right: 110px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.contents div{
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.contents div:hover{
+    color:white;
+}
 .logoname img{
     padding: 20px 3px;
     margin-left: 40px;
@@ -53,18 +75,6 @@ body{
     padding-bottom: 15px;
 }
 
-.btn button{
-    border-radius: 19px;
-    background-color: black;
-    color: rgb(174, 222, 252);
-    padding: 10px 37px;
-    font-size: 1rem;
-    margin-left: 100px;
-    font-family: "Nunito", sans-serif;
-    font-weight: 800;
-    transition: all .3s ease-in-out;
-}
-
 .img1{
     display: flex;
     flex-direction: column;
@@ -90,5 +100,4 @@ body{
     background-color: rgb(174, 222, 252);
     color: black;
     border-radius: 2px solid black;
-    font-size: 1.2rem;
 }
