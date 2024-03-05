@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(174, 222, 252);
     margin: 0;
@@ -262,6 +266,9 @@ body::-webkit-scrollbar {
 }
 
 
+#targetContent:target {
+    background-color: lightgray;
+}
 /* TEAM CSS */
   
   .container {
