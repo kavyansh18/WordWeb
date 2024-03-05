@@ -8,7 +8,7 @@ body{
 }
 
 .nav{
-    width: 100vw;
+    width: 95vw;
     height: 13vh;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    padding-right: 110px;
+    margin-right: 50px;
     font-family: "Madimi One", sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
@@ -54,6 +54,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 70px 100px;
+    height: 70vh;
 }
 
 .a{
@@ -100,4 +101,162 @@ body{
     background-color: rgb(174, 222, 252);
     color: black;
     border-radius: 2px solid black;
+}
+.cards{
+    background-color: rgb(252, 244, 226);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.card1{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 550px;
+    padding: 10px;
+    height: 140px;
+    background-color: rgb(174, 222, 252); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+.card4{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 550px;
+    padding: 10px;
+    height: 140px;
+    background-color: rgb(174, 222, 252); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.imgs img{
+    border-radius: 50%;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+
+.h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 244, 226);
+    padding-top: 40px;
+    font-family: "Madimi One", sans-serif;
+    font-size: 2.5rem;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; 
+  }
+ body::-webkit-scrollbar-track {
+    background-color: rgb(252, 244, 226); 
+    }
+ body::-webkit-scrollbar-thumb {
+    background-color:rgb(174, 222, 252);
+    border-radius: 3px; 
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background-color:rgb(174, 222, 252); 
+  }
+
+  .quote{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+  }
+
+  .author{
+    font-size: 15px;
+    font-style: italic;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+  }
+  .quote4{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 160px;
+    top: 50px;
+  }
+
+  .quote1{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+  }
+
+  .author1{
+    font-size: 15px;
+    font-style: italic;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+  }
+  .quote41{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 160px;
+    top: 50px;
+  }
+  .card11{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 550px;
+    padding: 20px;
+    height: 140px;
+    background-color: rgb(252, 244, 226); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+.card41{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 550px;
+    padding: 20px;
+    height: 140px;
+    background-color: rgb(252, 244, 226); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+.quote1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 222, 252);
+    padding-top: 40px;
+    font-family: "Madimi One", sans-serif;
+    font-size: 2.5rem;
+}
+.cardss{
+    background-color: rgb(174, 222, 252);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
 }
