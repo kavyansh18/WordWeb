@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&display=swap');
-
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("Copperplate\ Gothic\ 29\ AB.otf");
+}
 body{
     background-color: rgb(174, 222, 252);
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html , body{
+    height: 100%;
+    width: 100%;
 }
 
+#main{
+    position: relative;
+}
 .nav{
     width: 100vw;
     height: 13vh;
@@ -32,6 +44,8 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 70px 100px;
+    height: 70vh;
+    /* border: 2px solid red; */
 }
 
 .a{
@@ -74,6 +88,11 @@ body{
     position: absolute;
     right: 110px;
     bottom: 570px;
+
+}
+#star-top{
+    position: absolute;
+    top: 10%;    
 }
 
 .img1 img:first-child, .img1 img:last-child {
@@ -90,5 +109,172 @@ body{
     background-color: rgb(174, 222, 252);
     color: black;
     border-radius: 2px solid black;
-    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+
+/* Learn Language */
+#learn{
+    /* position: absolute; */
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    position: relative;
+    /* border: 2px solid blue; */
+    width: 45%;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+}
+#left a{
+    text-decoration: none;
+    position: absolute;
+    right: 20%;
+    font-size: 2vw;
+    /* top: 10%; */
+    z-index: 11;
+    opacity: 0;
+}
+#india:hover a{
+    right: 50%;
+    opacity: 1;
+    color: #f8b313;
+    transition: 1.6s;
+
+}
+#left img{
+    width: 10vw;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 5vw;
+}
+
+#center{
+    
+    position: relative;
+    height: 100vh;
+    width: 10%;
+    /* border: 2px solid green; */
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+#center h1{
+    align-items: center;
+    transform: rotate(-90deg);
+    font-size: 6vw;
+    font-family: "MyCustomFont";
+}
+#right{
+    position: relative;
+    /* border: 1px solid yellow; */
+    width: 45%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+}
+
+#right img{
+    width: 10vw;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-left: 5vw;
+
+} 
+#right a{
+    text-decoration: none;
+    position: absolute;
+    left: 15%;
+    font-size: 2vw;
+    /* top: 10%; */
+    opacity: 0;
+}
+#flag-img:hover a{
+    left: 50%;
+    opacity: 1;
+    color: #f8b313;
+    transition: 1.6s;
+
+} 
+
+#india{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px  red; */
+    width: 30vw;
+}
+#india img{
+    transform: translateX(50%);
+}
+#flag-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px  red; */
+    width: 30vw;
+}
+#flag-img img{
+    transform: translateX(-50%);
+}
+
+
+
+
+/* EVENTS PAGE */
+
+#event-page{
+    height:80vh;
+    width: 100vw;
+    position: relative;
+    overflow-x: scroll;
+}
+#event-head{
+    display: flex;
+    font-family: "MyCustomFont";
+    justify-content: center;
+}
+#events{
+    display: grid;
+    /* flex-direction: column; */
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    height: 55vh;
+    border: 2px solid green;
+    width: 120vw;
+    overscroll-behavior-inline: contain;
+}
+.event-card{
+    width: 80%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-card img{
+    width: 90%;
+    border-radius: 30px;
 }

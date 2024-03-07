@@ -6,28 +6,92 @@
     <title>WordWeb</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
 </head>
 <body>
-    <div class="nav">
-        <div class="logoname">
-            <img src="logo.png" alt="">
-            <h4>WordWeb</h4>
+    <div id="main">
+        
+        <div class="nav">
+            <div class="logoname">
+                <img src="logo.png" alt="">
+                <h4>WordWeb</h4>
+            </div>
         </div>
-    </div>
-    <div class="maincontent">
-        <div class="text">
-            <div class="a">Lerning Made Easier</div>
-            <div class="b">Master any Language</div>
-            <div class="c">Helping you build your confidence</div>
+        <div class="maincontent">
+            <div class="text">
+                <div class="a">Lerning Made Easier</div>
+                <div class="b">Master any Language</div>
+                <div class="c">Helping you build your confidence</div>
+            </div>
+            <div class="img1">
+                <img width="45px" src="star.svg" alt="" id="star-top">
+                <img width="440px" src="img1.png" alt="">
+                <img width="45px" src="star.svg" alt="">
+            </div>
         </div>
-        <div class="img1">
-            <img width="45px" src="star.svg" alt="">
-            <img width="440px" src="img1.png" alt="">
-            <img width="45px" src="star.svg" alt="">
+    
+                
+        
+        
+        
+        <!-- Learn Page -->
+        <div id="learn">
+            <div id="left">
+                <div id="india"><img src="https://www.pngall.com/wp-content/uploads/2016/05/India-Flag-PNG-Clipart.png" alt=""><a href="#">हिंदी</a></div>
+                <div id="india"><img src="https://static.vecteezy.com/system/resources/previews/000/401/734/original/illustration-of-spain-flag-vector.jpg" alt=""> <a href="#">Español</a></div>
+                <div id="india"><img src="https://www.pngplay.com/wp-content/uploads/6/American-Flag-Logo-Transparent-Free-PNG.png" alt=""> <a href="#">English</a></div>
+                <div id="india"><img src="https://cdn.freebiesupply.com/logos/large/2x/china-flag-logo-png-transparent.png" alt=""> <a href="#">中文</a></div>
+                <div id="india"><img src="https://www.worldatlas.com/upload/9a/c0/1b/ru-flag.jpg" alt=""> <a href="#">русский</a></div>
+            </div>
+            <div id="center"><h1>Learn</h1></div>
+            <div id="right">
+
+                <div id="flag-img"><img src="https://static.vecteezy.com/system/resources/previews/000/627/414/original/vector-japan-flag-symbol-sign.jpg" alt=""><a href="#">日本語</a></div>
+                <div id="flag-img"><img src="https://logos-download.com/wp-content/uploads/2021/07/Flag_of_Germany.png" alt=""><a href="#">Deutsch</a></div>
+                <div id="flag-img"><img src="https://cdn.countryflags.com/thumbs/turkey/flag-800.png" alt=""><a href="#">Türkçe</a></div>
+                <div id="flag-img"><img src="https://logos-download.com/wp-content/uploads/2021/07/Flag_of_France.png" alt=""><a href="#">Français</a></div>
+                <div id="flag-img"><img src="http://cdn.wallpapersafari.com/69/95/I3jG8s.jpg" alt=""><a href="#">한국인</a></div>
+            </div>
+        </div> <hr>
+
+
+        <!--EVENTS PAGE-->
+        <div id="event-page">
+            <div id="event-head"><h1>EVENTS</h1></div>
+            <div id="event-scroller">
+                <div id="events">
+                    <div id="event1" class="event-card">
+                        <img src="assets/mandarin (1).jpg" alt="">
+                        <h2>Mandarin Workshop</h2>
+                    </div>
+                    <div id="event2" class="event-card">
+                        <img src="assets/mandarin (1).jpg" alt="">
+                        <h2>Spanish Meet</h2>
+                        
+                    </div>
+                    <div id="event3" class="event-card">
+                        <img src="assets/mandarin (1).jpg" alt="">
+                        <h2>English Fest</h2>                  
+                    </div>
+                    <div id="event3" class="event-card">
+                        <img src="assets/mandarin (1).jpg" alt="">
+                        <h2>English Fest</h2>                  
+                    </div>
+                    <div id="event3" class="event-card">
+                        <img src="assets/mandarin (1).jpg" alt="">
+                        <h2>English Fest</h2>                  
+                    </div>
+                </div>          
+            </div>
         </div>
+        
+        
+        
     </div>
-    <div class="btn">
-        <button>Start Now</button>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
 </html>
