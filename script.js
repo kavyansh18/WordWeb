@@ -32,4 +32,111 @@ ScrollTrigger.refresh();
 loco()
 
 
+gsap.to(".nav",{
+  backgroundColor:"rgba(0,0,0,0.1)",
+  backdropFilter: "blur(5px)",
+  borderRadius:"10px",
+  height:"10vh",
+  scrollTrigger:{
+      trigger:".nav",
+      scroller:"#main",
+      start:"10% top",
+      end:"bottom -11%",
+      // markers:true,
+      scrub:0.8,
+  }
+})
+
+gsap.to(".h",{
+  opacity:"1",
+  backgroundColor:"rgb(252, 244, 226)",
+  scrollTrigger:{
+    trigger:".h",
+    scroller:"#main",
+    start:"7% bottom",
+    end:"40% top",
+    // markers:true,
+    scrub:1
+  }
+})
+gsap.to(".cards",{
+  gap:"10vw",
+  transition:"2.4s none",
+  opacity:"1",
+  scrollTrigger:{
+    trigger:".cards",
+    start:"-80% top",
+    end:"bottom bottom",
+    // markers:true,
+    scrub:1,
+    scroller:"#main",
+    }
+})
+
+gsap.to(".card11",{
+  opacity:1,
+  transition:"1.4s",
+  scrollTrigger:{
+    trigger:".card11",
+    scrub:1,
+    start: "-300% top",
+    end:"bottom bottom",
+    scroller:"#main",
+    // markers:true,
+  }
+})
+gsap.to(".cardss",{
+  gap:"50vw",
+  scrollTrigger:{
+    trigger:".cardss",
+    scrub:2,
+    start:"100% bottom",
+    end:"300% bottom",
+    // markers:true,
+    scroller:"#main"
+    
+  }
+})
+
+gsap.to("#india",{
+  marginRight:"0vw",
+  opacity:"1",
+  transition:"0.4s",
+  scrollTrigger:{
+    trigger:"#india",
+    scrub:1,
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"bottom bottom"
+    
+  }
+})
+
+gsap.to("#flag-img",{
+  marginLeft:"0vw",
+  opacity:"1",
+  transition:"0.4s",
+  scrollTrigger:{
+    trigger:"#india",
+    scrub:1,
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"bottom bottom"
+
+  }
+})
+
+gsap.to("#events",{
+  animation:"scroll 40s linear infinite",
+  scrollTrigger:{
+    trigger:"#events",
+    scroller:"#main",
+    scrub:1,
+    start:"10% 80%",
+    end:"top 10%",
+    // markers:true,
+  }
+})
 
